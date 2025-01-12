@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jetlets Personalized Travel Pass</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Roboto", sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f9f9f9;
+        color: #333;
+      }
+      header {
+        background: linear-gradient(135deg, #ff7e5f, #feb47b);
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+      header h1 {
+        margin: 0;
+        font-size: 2.5rem;
+      }
+      header p {
+        margin: 10px 0 0;
+        font-size: 1.2rem;
+      }
+      .container {
+        max-width: 1200px;
+        margin: 20px auto;
+        padding: 0 20px;
+      }
+      .features {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 40px;
+      }
+      .feature {
+        background: white;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        flex: 1 1 30%;
+        margin: 10px;
+        padding: 20px;
+        text-align: center;
+      }
+      .feature h3 {
+        margin-top: 0;
+      }
+      .cta {
+        text-align: center;
+        margin: 40px 0;
+      }
+      .cta button {
+        background: linear-gradient(135deg, #ff7e5f, #feb47b);
+        border: none;
+        border-radius: 5px;
+        color: white;
+        cursor: pointer;
+        font-size: 1.2rem;
+        padding: 15px 30px;
+        text-transform: uppercase;
+        transition: background 0.3s;
+      }
+      .cta button:hover {
+        background: linear-gradient(135deg, #feb47b, #ff7e5f);
+      }
+      .pricing {
+        text-align: center;
+        margin: 40px 0;
+      }
+      .pricing h2 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+      }
+      .price-card {
+        display: inline-block;
+        background: white;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        margin: 10px;
+        padding: 20px;
+        width: 250px;
+      }
+      .price-card h3 {
+        margin: 0;
+        font-size: 1.5rem;
+        color: #ff7e5f;
+      }
+      .price-card p {
+        font-size: 1.2rem;
+        color: #333;
+        margin: 10px 0;
+      }
+      .price-card ul {
+        list-style: none;
+        padding: 0;
+      }
+      .price-card ul li {
+        margin: 10px 0;
+      }
+      .price-card button {
+        background: linear-gradient(135deg, #ff7e5f, #feb47b);
+        border: none;
+        border-radius: 5px;
+        color: white;
+        cursor: pointer;
+        font-size: 1rem;
+        padding: 10px 20px;
+        transition: background 0.3s;
+      }
+      .price-card button:hover {
+        background: linear-gradient(135deg, #feb47b, #ff7e5f);
+      }
+      .newsletter {
+        text-align: center;
+        margin: 40px 0;
+        padding: 20px;
+        background: #fff;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+      .newsletter h2 {
+        margin: 0 0 10px;
+      }
+      .newsletter form {
+        display: inline-block;
+        margin-top: 10px;
+      }
+      .newsletter input {
+        padding: 10px;
+        font-size: 1rem;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        margin-right: 10px;
+      }
+      .newsletter button {
+        background: linear-gradient(135deg, #ff7e5f, #feb47b);
+        border: none;
+        border-radius: 5px;
+        color: white;
+        cursor: pointer;
+        font-size: 1rem;
+        padding: 10px 20px;
+        transition: background 0.3s;
+      }
+      .newsletter button:hover {
+        background: linear-gradient(135deg, #feb47b, #ff7e5f);
+      }
+      footer {
+        text-align: center;
+        padding: 20px;
+        background-color: #333;
+        color: white;
+      }
+      footer p {
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Jetlets Personalized Travel Pass</h1>
+      <p>
+        Explore more, save more. Your travel companion for exclusive discounts
+        and perks!
+      </p>
+    </header>
+
+    <div class="container">
+      <section class="features">
+        <div class="feature">
+          <h3>Exclusive Discounts</h3>
+          <p>
+            Enjoy discounts at top hotels, restaurants, and attractions.
+            <a href="https://affiliate.partner.com/hotel-deals" target="_blank"
+              >Book Now</a
+            >
+          </p>
+        </div>
+        <div class="feature">
+          <h3>Local Experiences</h3>
+          <p>
+            Unlock hidden gems and curated activities in each destination.
+            <a href="https://affiliate.partner.com/local-tours" target="_blank"
+              >Explore More</a
+            >
+          </p>
+        </div>
+        <div class="feature">
+          <h3>Flexible & Convenient</h3>
+          <p>
+            Access your travel perks directly on your phone anytime, anywhere.
+          </p>
+        </div>
+      </section>
+
+      <section class="pricing">
+        <h2>Choose Your Pass</h2>
+        <div class="price-card">
+          <h3>Basic Pass</h3>
+          <p>Free</p>
+          <ul>
+            <li>Limited discounts</li>
+            <li>Access to select deals</li>
+          </ul>
+          <button
+            onclick="window.location.href='https://buy.jetlets.com/basic'"
+          >
+            Get Basic Pass
+          </button>
+        </div>
+        <div class="price-card premium">
+          <h3>Premium Pass</h3>
+          <p>$15</p>
+          <ul>
+            <li>All exclusive discounts</li>
+            <li>Priority deals & perks</li>
+            <li>Access to premium content</li>
+          </ul>
+          <button
+            onclick="window.location.href='https://buy.jetlets.com/premium'"
+          >
+            Get Premium Pass
+          </button>
+        </div>
+      </section>
+
+      <section class="newsletter">
+        <h2>Stay Updated</h2>
+        <p>Subscribe to get exclusive offers and travel tips!</p>
+        <form action="https://your-email-platform.com/subscribe" method="post">
+          <input
+            type="email"
+            name="email"
+            placeholder="Enter your email"
+            required
+          />
+          <button type="submit">Subscribe</button>
+        </form>
+      </section>
+
+      <div class="cta">
+        <button onclick="window.location.href='https://buy.jetlets.com'">
+          Get Your Pass Now
+        </button>
+      </div>
+    </div>
+    <form onSubmit="{handleSubscribe}">
+      <input type="email" placeholder="Enter your email" required />
+      <button type="submit">Subscribe</button>
+    </form>
+
+    <footer>
+      <p>&copy; 2025 Jetlets. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
